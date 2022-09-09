@@ -1,0 +1,155 @@
+.App {
+  text-align: center;
+}
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.receptionist{
+  float: middle;
+}
+.row{
+  float: center;
+  
+}
+.Home{
+  background-image: url('./images/reception.jpg');
+  background-size: cover;
+  height: 90vh;
+}
+
+.nav-color{
+  background-color:chocolate;
+}
+.navbar-nav{
+  margin-left: auto;
+}
+.homescreen{
+  background-image: url('./images/hotel1.jpg');
+  background-size: cover;
+  height: 100vh;
+}
+.img-fluid
+{
+  margin-right: auto;
+}
+.roomAdd,.roomUpdate{
+  background-image: url('./images/roomadd.jpg');
+  background-size: cover;
+  height: 100vh;
+}
+.staffAdd, .staffUpdate{
+  background-color: burlywood;
+  height: 140vh;
+}
+.inventoryAdd, .inventoryUpdate{
+  padding-top: 5rem;
+  background-color: darkgray;
+  height: 110vh;
+}
+.loginform{
+  background-color: blanchedalmond;
+  height: 100vh;
+}
+.checkOut{
+  padding-top: 6rem;
+  background-color: antiquewhite;
+  height: 100vh;
+}
+.getAllRooms{
+  padding-top: 1em;
+}
+
+.text{
+  color:aqua;
+}
+.searchRooms{
+  padding: 50px;
+  /* background-image: url('./images/search1.jpg');
+  background-size: cover;
+  height: 100vh; */
+  background-color: darkkhaki;
+  height: 150vh;
+}
+.loginform{
+  padding-top: 100px;
+}
+.guestAdd,.guestUpdate{
+  /* background-image: url("./images/guest2.jpg");
+  background-size:cover;
+/* width: 210vh; */
+  /* height: 140vh; */ 
+  background-color: lightcoral;
+}
+.reservationAdd{
+  /* background-image: url('./images/roombook.jpg'); */
+  background-color: darkseagreen;
+  background-size: cover;
+  height: 140vh;
+}
+.roomsAvailable{
+  /* background-image: url('./images/search1.jpg');
+  background-size: cover; */
+  background-color:cornsilk;
+  height: 140vh;
+}
+.managerAdd{
+  background-color: antiquewhite;
+  height: 140vh;
+}
+.ReceptionistAdd{
+  background-color: beige;
+  height: 140vh;
+}
+.addDepartment{
+  padding-top: 10rem;
+  background-color: aliceblue;
+  height: 100vh
+}
+.aboutus{
+  padding-top: 5rem;
+  background-color: burlywood;
+  height: 100vh;
+}
+.payment{
+  padding-top: 6rem;
+  background-color: beige;
+  height: 140vh;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+table th,td{
+border: 1px;
+
+
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

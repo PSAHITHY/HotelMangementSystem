@@ -1,0 +1,6 @@
+export const BASE_URL="http://localhost:8084";
+export const INVENTORY_ADD="INVENTORY_ADD";
+export const INVENTORY_UPDATE="INVENTORY_UPDATE";
+export const INVENTORY_ALL="INVENTORY_ALL";
+export const INVENTORY_DELETE="INVENTORY_DELETE";
+export const INVENTORY_BYID="INVENTORY_BYID";

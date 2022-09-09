@@ -1,0 +1,9 @@
+export const BASE_URL= "http://localhost:8082";
+export const ROOM_ADD="ROOM_ADD";
+export const ROOM_ALL="ROOM_ALL";
+export const ROOM_FETCH_BYID="ROOM_FETCH_BYID";
+export const ROOMS_FOUND="ROOMS_FOUND";
+export const ROOM_DELETE="ROOM_DELETE";
+export const ROOM_UPDATE="ROOM_UPDATE";
+export const ROOM_CHECKOUT="ROOM_CHECKOUT";
+export const ROOM_AVAIL="ROOM_AVAIL";
